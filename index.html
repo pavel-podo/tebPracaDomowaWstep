@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="po">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>
+                Praca domowa
+            </h1>
+        </header>
+        <article>
+            <h2>
+                Odległość
+            </h2>
+            <p>
+                Napisz program, który wczyta dwie liczby i wypisze odległo ́s ́c mi ̨edzy nimi na standardowe wyj ́scie.
+            </p>
+            <input type="text" id=distanceA placeholder="A">
+
+            <input type="text" id=distanceB placeholder="b">
+            <button id="getDistanceBtn"> <span>obliczyć odległość</span></button>
+            <span>Distance: <span id="distanceResult"></span></span>
+        </article>
+        <hr>
+        </hr>
+        <article>
+            <h2>
+                Dwukrotność
+            </h2>
+            <p>
+                Napisz program, który: wczyta z wej ́scia jedn ̨a liczb ̨e całkowit ̨a, wyznaczy jej dwukrotno ́s ́c i
+                wypisze wynikna wyj ́scie.
+            </p>
+            <input type="text" id=doubleNumer placeholder="numer">
+            <button id="getDoubleBtn"> <span>obliczyć dwukrotność</span></button>
+            <span>Dwukrotność: <span id="doubleResult"></span></span>
+        </article>
+        <hr>
+        </hr>
+        <article>
+            <h2>
+                BMI
+            </h2>
+            <p>
+                Body Mass Index(BMI), to współczynnik opisuj ̨acy prawidłow ̨a relacj ̨e pomi ̨edzy mas ̨a ciała
+                dorosłegoczłowieka a wzrostem.
+                Napisz program, który: wczyta mas ̨e i wzrost dorosłego człowieka, obliczy dla tych danych
+                współczynnikBMI i wypisze go na wyj ́scie wraz ze stosown ̨a diagnoz ̨a.
+            </p>
+            <input type="text" id=waga placeholder="waga">
+
+            <input type="text" id=wzrost placeholder="wzrost">
+            <span id="BMIerror"></span>
+
+            <button id="getBMIBtn"> <span>obliczyć BMA</span></button>
+            <span>BMI: <span id="BMIResult"></span></span>
+            <span>diagnoza: <span id="BMIDiagnos"></span></span>
+        </article> 
+        <hr>
+        </hr>
+        <article>
+            <h2>
+                PIT
+            </h2>
+            <p>
+                Dawno, dawno temu istniała kraina mlekiem i miodem płynąca, zamieszkana przez szczęśliwych i dostatnich
+                ludzi. Ludzie oczywiście płacili podatki - ich szczęście miało ograniczenia. Najważniejszy podatek,
+                zwany Podatkiem dochodowym (PIT w skrócie) musiał być płacony raz w roku i był obliczany zgodnie z
+                następującą zasadą:
+            <ul>
+                <li>
+                    jeżeli dochód był wyższy niż ta kwota, podatek był równy 14,839 talarów i 2 centy plus 32%
+                    nadwyżki ponad 85,528 talarów.
+                </li>
+                <li>
+                    jeżeli dochód obywatela nie był wyższy niż 85,528 talarów, podatek był równy 18% dochodu minus 556
+                    talarów i 2 centy (była to tak zwana ulga podatkowa)
+
+                </li>
+                <li>
+                    Powinien on na wejściu przyjąć jedną wartość zmiennoprzecinkową: dochód.
+                </li>
+                <li>
+                    Następnie powinien wyświetlić obliczony podatek, zaokrąglony do pełnych talarów. Uwaga: ten
+                    szczęśliwy
+                    kraj nigdy nie zwraca pieniędzy swoim obywatelom. Jeżeli obliczony podatek jest mniejszy od zera,
+                    oznacza to
+                    tylko brak podatku (podatek jest równy zeru). Weź to pod uwagę podczas swoich obliczeń.
+                </li>
+            </ul>
+            </p>
+            <input type="text" id=dochodInput placeholder="dochód">
+            <button id="getPitBtn"> <span>obliczyć PIT</span></button>
+            <span>PIT: <span id="PitResult"></span></span>
+<!-- test -->
+        </article>
+<footer>
+    &copy; Pavlo Podoroha 2022  
+</footer>
+    </main>
+    <script src="js/main.js">
+
+    </script>
+</body>
+
+</html>

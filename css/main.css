@@ -1,0 +1,58 @@
+header {
+    background-color: #0ad2ad;
+    padding: 16px 5vw;
+}
+
+h1 {
+    color: white
+}
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 5vw;;
+}
+button{
+    height: 44px;
+    background-color: #ed007b;
+    border:none;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 3px;
+}
+button:active{ 
+    padding-top: 8px;
+    /* //padding-bottom: 12px; */
+}
+input{
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: rgb(232, 240, 254);
+    border-width: 1px ;
+    border-style: solid;
+    border-radius: 3px ;
+    padding: 8px;
+}
+input, button{
+    margin-bottom: 20px;
+    width: 200px;
+}
+#BMIerror{
+    color:red;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#wzrost{
+    margin-bottom: 5px;
+}
+li::marker{
+    color: #0ad2ad;
+}
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: #0ad2ad;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+}
